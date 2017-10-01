@@ -15,7 +15,7 @@ class TodoController < ApplicationController
             if params[:id]=="4"
                 @task="Finish scholarship application"
             end
-            @order=params[:order]
+         @todo=Todo.find(params[:id])  
     end
     
         def new
