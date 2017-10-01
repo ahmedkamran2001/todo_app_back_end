@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+html{
+    font-family: Times
+     
+}
+body{
+    background-image:url("http://dpanoply.s3.amazonaws.com/blog/combining-vectors-and-textures-for-a-background-with-depth/final-full.jpg");
+    color: white
+}
+.header{
+    font-size: 76;
+      text-align: center;
+  margin-top: 20px;
+  
+}
+.mainlist{
+    font-size: 30;
+     text-align: center;
+  list-style-type: none;
+    
+}
+.text{
+    font-size: 30;
+      text-align: center;
+  margin-top: 20px;
+  padding: 50px 100px 50px 1100px;
+ 
+    
+}
+#addtodo{
+    font-size: 30;
+      text-align: center;
+  margin-top: 30px;
+  margin-left: center;
+
+}
+#nextpage{
+    font-size: 30;
+      text-align: center;
+
+}
+
+.textbox{
+    font-size: 30;
+     text-align: center;
+  margin-top: 20px;
+  
+  
+}
+
+img{
+ margin-left: 350px
+}
+
+
+#showtask{
+    text-align: center;
+    
+}
